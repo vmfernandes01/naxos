@@ -178,6 +178,15 @@ footer .copyright {
   position:fixed;
   bottom:30px;
   right:40px;
-  
+}
+
+.icons {
+  border: 1px solid silver; 
+  border-radius: 0.25em; 
+  padding: 0.5em;
+}
+
+.col-lg-6 i, .col-lg-6 p{
+  margin: 4rem 0 4rem 0;
 }
 
