@@ -55,7 +55,7 @@ svg {
 
 .bi {
   vertical-align: -.125em;
-  fill: currentColor;
+  fill: #fafafa;
 }
 
 .nav-scroller {
@@ -74,4 +74,48 @@ svg {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+
+body {
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  background-color: #fafafa;
+}
+
+.carousel {
+  margin-top: -25px !important;
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 42rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.carousel img {
+  min-width: 1080px;
+  height: 100%;
+  width: 100%;
 }
