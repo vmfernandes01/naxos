@@ -128,7 +128,7 @@ body {
   margin-bottom: 4rem;
 }
 
-#first h2 {
+.titulos {
   margin-bottom: 4rem;
 }
 
@@ -136,4 +136,8 @@ body {
   margin-bottom: 2rem;
   width: 100px;
   height: 100px;
+}
+
+header .btn {
+  font-weight: 500;
 }
