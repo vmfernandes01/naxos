@@ -124,12 +124,12 @@ body {
   margin-bottom: 40px;
 }
 
-.container {
+#planos, .titulos, #vantagens  {
   margin-bottom: 4rem;
 }
 
-.titulos {
-  margin-bottom: 4rem;
+#perguntasFrequentes .titulos{
+  margin-top: 4rem;
 }
 
 .container svg {
@@ -140,4 +140,10 @@ body {
 
 header .btn {
   font-weight: 500;
+}
+
+.cartao {
+  padding: 15px;
+  border: blue solid 1px;
+  width: 300px;
 }
