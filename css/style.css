@@ -124,7 +124,11 @@ body {
   margin-bottom: 40px;
 }
 
-.container h2 {
+.container {
+  margin-bottom: 4rem;
+}
+
+#first h2 {
   margin-bottom: 4rem;
 }
 
