@@ -77,7 +77,6 @@ header svg {
 }
 
 body {
-
   color: #101010;
   background-color: #fafafa;
 }
@@ -94,6 +93,10 @@ body {
 
 .carousel-item {
   height: 42rem;
+}
+
+.carousel img {
+  height: 900px !important;
 }
 
 @media (min-width: 40em) {
@@ -143,11 +146,12 @@ header .btn {
 }
 
 .cartao {
-  padding: 15px;
-  border: blue solid 1px;
+  padding: 25px;
+  border: #00c2cb solid 4px;
   width: 300px;
   margin: 4rem auto 0 auto;
-  box-shadow: 10px 10px 5px black;
+  box-shadow: 10px 10px 0px #00c2cb;
+  border-radius: 30px;
 }
 
 footer {
@@ -190,9 +194,45 @@ footer .copyright {
 
 .cartao p {
   margin: -10px 0 0 0 !important;
+  padding: 10px;
 }
 
 .col-lg-6 i, .col-lg-6 p{
   margin: 4rem 0 4rem 0;
 }
 
+.price {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+div.scrollmenu p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+div.scrollmenu {
+  padding: 0 10px 4rem 10px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu div {
+  display: inline-block;
+  color: #101010;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+div.scrollmenu svg {
+  width: 100px;
+  height: 100px;
+}
+
+#inverter {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
