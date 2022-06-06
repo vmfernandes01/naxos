@@ -124,7 +124,7 @@ body {
   margin-bottom: 40px;
 }
 
-#planos, .titulos, #vantagens, #perguntasFrequentes {
+#planos, .titulos, #vantagens, #perguntasFrequentes, #chamadaPlanos {
   margin-bottom: 4rem;
 }
 
@@ -146,7 +146,10 @@ header .btn {
   padding: 15px;
   border: blue solid 1px;
   width: 300px;
+  margin: 4rem auto 0 auto;
 }
+
+
 
 footer {
   padding-top: 4rem;
@@ -184,6 +187,10 @@ footer .copyright {
   border: 1px solid silver; 
   border-radius: 0.25em; 
   padding: 0.5em;
+}
+
+.cartao p {
+  margin: -10px 0 0 0 !important;
 }
 
 .col-lg-6 i, .col-lg-6 p{
