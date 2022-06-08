@@ -233,3 +233,15 @@ div.scrollmenu svg {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+
+.fa-xmark {
+  color: red;
+}
+
+.fa-check {
+  color: green;
+}
+
+td i {
+  margin-left: 60%;
+}
