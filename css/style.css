@@ -6,9 +6,7 @@ hr {
   margin: 0 !important;
 }
 
-header svg {
-  width: 50px;
-  height: 50px;
+header img {
   margin-left: auto;
 }
 
@@ -134,11 +132,11 @@ body {
   margin-bottom: 40px;
 }
 
-#planos, .titulos, #vantagens, #perguntasFrequentes, #chamadaPlanos, #chamadaSuporte {
+#planos, .titulos, #vantagens, #perguntasFrequentes, #chamadaPlanos, #chamadaSuporte, #redesSociais {
   margin-bottom: 4rem;
 }
 
-#perguntasFrequentes .titulos, #chamadaPlanos, #chamadaSuporte, #planos{
+#perguntasFrequentes .titulos, #chamadaPlanos, #chamadaSuporte, #planos, #redesSociais{
   margin-top: 4rem;
 }
 
@@ -182,9 +180,8 @@ footer p, footer span, footer a{
   margin-top: 2rem;
 }
 
-footer .copyright {
-  padding-bottom: 30px;
-  margin-bottom: 0;
+footer #copyright {
+  margin-bottom: 50px;
 }
 
 .whatsapp {
@@ -199,9 +196,17 @@ footer .copyright {
   padding: 0.5em;
 }
 
-.cartao p {
-  margin: -10px 0 0 0 !important;
+.icons:hover {
+  background-color: #303440;
+}
+
+#descricaoPlanos {
+  margin: -10px 0 -5px 0 !important;
   padding: 10px;
+}
+
+.porVenda {
+  margin: -10px 0 20px 0 !important;
 }
 
 .col-lg-6 i, .col-lg-6 p{

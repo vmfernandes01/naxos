@@ -7,23 +7,28 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <title>Naxos Automação Comercial</title>
-  <link rel="icon" href="img/icon.ico">
+  <link rel="icon" href="img/favicon.ico">
 </head>
 <body>
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
     <a href="https://naxosautomacao.com.br" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-      <svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 283"><defs><style>.cls-3{fill:#7ed857;}.cls-2{fill:#00c1ca;}.cls-3{fill:#101010;}</style></defs><path class="cls-1" d="M311.2,140.65c-1.24-1.3-2.24-2.41-3.29-3.46Q256.37,85.58,204.72,34.06c-3.21-3.19-3-4.7.09-7.61,7.3-6.81,14.35-13.91,21.25-21.13,2.58-2.7,4-3,6.87-.12q43.62,44,87.54,87.7c15,15,29.86,30,44.93,44.81,2.38,2.34,2.2,3.53-.06,5.78q-67,66.87-133.89,133.92c-2.15,2.16-3.44,2.75-5.87.2-7.47-7.83-15.14-15.48-22.93-23-2.25-2.17-2.13-3.35,0-5.51Q255.49,196.62,308.13,144C309.17,142.94,310.12,141.82,311.2,140.65Z"/><path class="cls-2" d="M139.85,1.75c.79.7,1.44,1.2,2,1.78,8,8,15.85,16.19,24,24.07,3.18,3.08.26,4.28-1.3,5.84q-45.89,46-91.84,91.86L62.44,135.54c-5.59,5.59-5.59,5.6-.17,11l80.86,80.94c7.18,7.19,14.28,14.45,21.58,21.51,2,2,2.14,3,.06,5q-12,11.63-23.73,23.61c-1.84,1.88-2.87,1.7-4.64-.08Q69.52,210.58,2.5,143.7c-2.07-2.06-1.88-3.11.07-5Q69.93,71.42,137.2,4.09C138,3.29,138.88,2.6,139.85,1.75Z"/><path class="cls-3" d="M226.1,198.89c-3.21.36-6.1-1.15-8.89-3.12-14.82-10.48-27.28-23.35-38.29-37.68-3.25-4.23-6-10.42-10.57-11.46-4.27-1-8.79,4.36-13.07,7.11-6.29,4-12.34,8.47-18.58,12.6-3.54,2.35-7.23,5.63-11.55,1.63-2.9-2.69-2.66-10.77.19-14.54a39.85,39.85,0,0,1,7.49-7.3c5.77-4.5,11.67-8.85,17.26-13.58,6.23-5.26,6.41-6.64,3.48-14.13-.84-2.17-1.79-4.29-2.64-6.46a41.49,41.49,0,0,1-1.69-4.68c-.88-3.33-1.28-7.42,1.73-9.13,3.32-1.87,6,1.3,8.21,3.92s4.46,5.39,6.75,8c3.87,4.46,6.84,4.85,11.62,1.23,7.29-5.52,14.46-11.22,21.69-16.84a98.16,98.16,0,0,1,15.12-9.62c4.75-2.48,8.89-1.59,11.78,2.4s2.43,7.26-1.85,11.33c-9.56,9.07-20.22,16.8-30.56,24.91-1,.82-2.13,1.6-3.16,2.45-8.09,6.66-8.3,8.53-2.47,17.39,11.59,17.62,24.68,33.9,41.64,46.74,2,1.54,4,3.26,3.18,6.22C232.41,198.17,230.51,198.86,226.1,198.89Z"/></svg>      <h5>NAXOS AUTOMAÇÃO COMERCIAL</h5>
+      <img src="img/logomarca-naxos.png" alt="Naxos Automação">
     </a>
 
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="#" class="nav-link px-2 link-dark">Planos</a></li>
       <li><a href="recursos.html" class="nav-link px-2 link-dark">Recursos</a></li>
-      <li><a href="#" class="nav-link px-2 link-dark">Tutoriais</a></li>
-      <li><a href="#" class="nav-link px-2 link-dark">Suporte</a></li>
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Suporte
+      </a>
+      <ul class="dropdown-menu dropdown-dark" aria-labelledby="navbarDropdownMenuLink">
+        <li><a class="dropdown-item" href="#">Tutoriais</a></li>
+        <li><a class="dropdown-item" href="#">Suporte Técnico</a></li>
+      </ul>
     </ul>
 
     <div class="col-md-3">
-      <button type="button" class="btn btn-success me-2">Entre em contato</button>
+      <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#Modal">Entre em contato</button>
     </div>
   </header>
   <div class="container">
@@ -214,10 +219,35 @@
         </tr>
       </tbody>
     </table>
-    <p class="text-center" id="chamadaSuporte">Todos os nossos planos incluem suporte em horário comercial de Segunda a Sexta, das 09:00
-      às 18:00 e aos Sábados, das 09:00 às 13:00.
-    </p>
+    <div id="chamadaPlanos" class="text-center">
+      <p class="">Em nossos planos já está incluso suporte em horário comercial de Segunda à Sexta das 09:00 às 18:00 e Sábado das 09:00 às 13:00</p>
+      <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#Modal">Quero contratar</button>
+    </div>
   </div>
+  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Entre em contato</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form>
+          <div class="modal-body">
+            <p>Preencha o formulário abaixo e um membro de nossa equipe entrará em contato para apresentar tudo o que nosso sistema pode fazer por sua empresa.</p>
+            <label for="email" class="form-label">Insira seu email</label>
+            <input type="email" class="form-control" id="email" placeholder="exemplo@exemplo.com">
+            <label for="nome" class="form-label">Insira seu nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="João da Silva">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <input type="submit" value="Enviar" class="btn btn-success"></input>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <script src="https://kit.fontawesome.com/a07e271676.js" crossorigin="anonymous"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
@@ -233,6 +263,7 @@
         <h2>Informações</h2>
           <p><a href="#">Planos</a></p>
           <p><a href="recursos.html">Recursos</a></p>
+          <p><a href="#">Tutoriais</a></p>
           <p><a href="#">Suporte técnico</a></p>
       </div>
       <div class="col-lg-3">
@@ -245,7 +276,7 @@
   <hr>
   <div class="container">
     <div class="row">
-      <div class="col-lg-6 text-center">
+      <div id="redesSociais" class="col-lg-12 text-center">
           <a href="https://api.whatsapp.com/send/?phone=5519997395385&text=Ol%C3%A1%2C+queria+mais+informa%C3%A7%C3%B5es+sobre+o+sistema+Naxos&app_absent=0"><span class="icons"><i class="fa-brands fa-whatsapp fa-lg fa-fw" title="WhatsApp"></i></span></a>
           <a href="https://www.instagram.com/naxosac/"><span class="icons"><i class="fa-brands fa-instagram fa-lg fa-fw" title="Instagram"></i></span></a>
           <a href="https://www.youtube.com/channel/UCW8POZWmRQXjnMke_9R0liQ"><span class="icons"><i class="fa-brands fa-youtube fa-lg fa-fw" title="YouTube"></i></span></a>
@@ -253,8 +284,8 @@
           <a href="https://www.facebook.com/naxosac"><span class="icons"><i class="fa-brands fa-facebook fa-lg fa-fw" title="Facebook"></i></span></a>
           <a href="https://discord.com/invite/wJPeySSP"><span class="icons"><i class="fa-brands fa-discord fa-lg fa-fw" title="Discord"></i></span></a>
       </div>
-      <div class="col-lg-6 text-center">
-        <p>&copy; 2022. Todos os direitos reservados | Mogi Mirim - SP | CNPJ: 29.893.703/0001-78</p>
+      <div class="col-lg-12 text-center">
+        <img src="img/logomarca-naxos-2.png" alt=""><p id="copyright">&copy; 2022. Todos os direitos reservados | Mogi Mirim - SP | CNPJ: 29.893.703/0001-78</p>
       </div>
     </div>
   </div>
