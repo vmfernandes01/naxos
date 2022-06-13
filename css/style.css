@@ -1,5 +1,6 @@
 html {
   background-color: #fafafa !important;
+  scroll-behavior: smooth;
 }
 
 hr {

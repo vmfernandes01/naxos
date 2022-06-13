@@ -11,24 +11,20 @@
 </head>
 <body>
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-    <a href="https://naxosautomacao.com.br" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+    <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
       <img src="img/logomarca-naxos.png" alt="Naxos Automação">
     </a>
-
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="#" class="nav-link px-2 link-dark">Planos</a></li>
       <li><a href="recursos.html" class="nav-link px-2 link-dark">Recursos</a></li>
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Suporte
-      </a>
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Suporte</a>
       <ul class="dropdown-menu dropdown-dark" aria-labelledby="navbarDropdownMenuLink">
-        <li><a class="dropdown-item" href="#">Tutoriais</a></li>
-        <li><a class="dropdown-item" href="#">Suporte Técnico</a></li>
+        <li><a class="dropdown-item" href="tutoriais.html">Tutoriais</a></li>
+        <li><a class="dropdown-item" href="https://api.whatsapp.com/send/?phone=5519997395385&text=Ol%C3%A1,%20preciso%20de%20ajuda%20com%20o%20sistema%20Naxos&app_absent=0">Suporte Técnico</a></li>
       </ul>
     </ul>
-
     <div class="col-md-3">
-      <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#Modal">Entre em contato</button>
+      <a href="contato.html"><button type="button" class="btn btn-success me-2">Entre em contato</button></a>
     </div>
   </header>
   <div class="container">
@@ -221,30 +217,7 @@
     </table>
     <div id="chamadaPlanos" class="text-center">
       <p class="">Em nossos planos já está incluso suporte em horário comercial de Segunda à Sexta das 09:00 às 18:00 e Sábado das 09:00 às 13:00</p>
-      <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#Modal">Quero contratar</button>
-    </div>
-  </div>
-  <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Entre em contato</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <form>
-          <div class="modal-body">
-            <p>Preencha o formulário abaixo e um membro de nossa equipe entrará em contato para apresentar tudo o que nosso sistema pode fazer por sua empresa.</p>
-            <label for="email" class="form-label">Insira seu email</label>
-            <input type="email" class="form-control" id="email" placeholder="exemplo@exemplo.com">
-            <label for="nome" class="form-label">Insira seu nome</label>
-            <input type="text" class="form-control" id="nome" placeholder="João da Silva">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-            <input type="submit" value="Enviar" class="btn btn-success"></input>
-          </div>
-        </form>
-      </div>
+      <a href="contato.html"><button class="btn btn-success btn-lg">Quero contratar</button></a>
     </div>
   </div>
 

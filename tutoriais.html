@@ -12,129 +12,50 @@
 <body>
   <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
     <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <img src="img/logomarca-naxos.png" alt="Naxos Automação">
+      <img src="img/logomarca-naxos.png" alt="Naxos Automação">
     </a>
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="#" class="nav-link px-2 link-dark">Planos</a></li>
       <li><a href="recursos.html" class="nav-link px-2 link-dark">Recursos</a></li>
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Suporte</a>
       <ul class="dropdown-menu dropdown-dark" aria-labelledby="navbarDropdownMenuLink">
-        <li><a class="dropdown-item" href="#">Tutoriais</a></li>
-        <li><a class="dropdown-item" href="#">Suporte Técnico</a></li>
+        <li><a class="dropdown-item" href="tutoriais.html">Tutoriais</a></li>
+        <li><a class="dropdown-item" href="https://api.whatsapp.com/send/?phone=5519997395385&text=Ol%C3%A1,%20preciso%20de%20ajuda%20com%20o%20sistema%20Naxos&app_absent=0">Suporte Técnico</a></li>
       </ul>
     </ul>
     <div class="col-md-3">
-      <button type="button" class="btn btn-success me-2" data-bs-toggle="modal" data-bs-target="#Modal">Entre em contato</button>
+      <a href="contato.html"><button type="button" class="btn btn-success me-2">Entre em contato</button></a>
     </div>
   </header>
   <div id="perguntasFrequentes" class="container">
     <h2 class="text-center titulos">Principais tutoriais</h2>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion accordion-flush" id="accordionFlush">
       <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Naxos PDV possui custo de instalação?
+        <h2 class="accordion-header" id="flush-heading1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+            titulo
           </button>
         </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Sim. Temos um custo de R$ 50,00 para instalação e setup inicial de cada licença, pago apenas uma vez.</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Preciso de internet para usar o Naxos PDV?
-          </button>
-        </h2>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Não. O sistema Naxos PDV não necessita de internet para seu funcionamento, sabemos que imprevistos acontecem e a sua loja não pode parar, portanto ele funciona totalmente offline caso esteja alimentado com as informações cadastradas. Necessidade de internet só se faz necessário quando precisar fazer a troca de informações entre ele e o sistema de gestão (Naxos G).</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            São dois sistemas ? Pago pelos dois?
-          </button>
-        </h2>
-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">São dois sistemas, o Naxos PDV que é o frente de caixa e o Naxos G, que é o sistema de gestão que o acompanha e que faz todo o cadastro necessário para alimentar o PDV, além de contar com diversas outras funções de gestão. Porém, você só paga a licença por cada Naxos PDV instalado e para cada licença do Naxos PDV, você pode ter até 03 Naxos G em diferentes computadores.</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-            Existe limite de espaço de armazenamento no servidor?
-          </button>
-        </h2>
-        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Não! Possuímos espaço de armazenagem ilimitado para nossos clientes em nosso servidor, totalmente em nuvem, para que você possa acessar de onde quiser.</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-            Tenho mais de uma loja e gostaria que as informações fossem centralizadas, é possível?
-          </button>
-        </h2>
-        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Perfeitamente possível, visto que nossa estrutura foi montada pensando na expansão de nossos parceiros e portanto você pode ter várias licenças em vários CNPJ's que no sistema de gestão (Naxos G) serão centralizados tantos nos relatórios quanto nos cadastros, tudo isso para facilitar o seu dia a dia e de quem trabalha com você.</div>
+        <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlush">
+          <div class="accordion-body"><iframe width="100%" height="415" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
       </div>
     </div>
   </div>
   <div id="perguntasFrequentes" class="container">
     <h2 class="text-center titulos">Outros tutoriais</h2>
-    <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion accordion-flush" id="accordionFlush">
       <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingOne">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            Naxos PDV possui custo de instalação?
+        <h2 class="accordion-header" id="flush-heading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+            titulo
           </button>
         </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Sim. Temos um custo de R$ 50,00 para instalação e setup inicial de cada licença, pago apenas uma vez.</div>
+        <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlush">
+          <div class="accordion-body">video</div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-            Preciso de internet para usar o Naxos PDV?
-          </button>
-        </h2>
-        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Não. O sistema Naxos PDV não necessita de internet para seu funcionamento, sabemos que imprevistos acontecem e a sua loja não pode parar, portanto ele funciona totalmente offline caso esteja alimentado com as informações cadastradas. Necessidade de internet só se faz necessário quando precisar fazer a troca de informações entre ele e o sistema de gestão (Naxos G).</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            São dois sistemas ? Pago pelos dois?
-          </button>
-        </h2>
-        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">São dois sistemas, o Naxos PDV que é o frente de caixa e o Naxos G, que é o sistema de gestão que o acompanha e que faz todo o cadastro necessário para alimentar o PDV, além de contar com diversas outras funções de gestão. Porém, você só paga a licença por cada Naxos PDV instalado e para cada licença do Naxos PDV, você pode ter até 03 Naxos G em diferentes computadores.</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-            Existe limite de espaço de armazenamento no servidor?
-          </button>
-        </h2>
-        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Não! Possuímos espaço de armazenagem ilimitado para nossos clientes em nosso servidor, totalmente em nuvem, para que você possa acessar de onde quiser.</div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="flush-headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-            Tenho mais de uma loja e gostaria que as informações fossem centralizadas, é possível?
-          </button>
-        </h2>
-        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">Perfeitamente possível, visto que nossa estrutura foi montada pensando na expansão de nossos parceiros e portanto você pode ter várias licenças em vários CNPJ's que no sistema de gestão (Naxos G) serão centralizados tantos nos relatórios quanto nos cadastros, tudo isso para facilitar o seu dia a dia e de quem trabalha com você.</div>
-        </div>
-      </div>
+      
     </div>
   </div>
   <script src="https://kit.fontawesome.com/a07e271676.js" crossorigin="anonymous"></script>
@@ -152,13 +73,13 @@
         <h2>Informações</h2>
           <p><a href="#">Planos</a></p>
           <p><a href="recursos.html">Recursos</a></p>
-          <p><a href="#">Tutoriais</a></p>
-          <p><a href="#">Suporte técnico</a></p>
+          <p><a href="tutoriais.html">Tutoriais</a></p>
+          <p><a href="https://api.whatsapp.com/send/?phone=5519997395385&text=Ol%C3%A1,%20preciso%20de%20ajuda%20com%20o%20sistema%20Naxos&app_absent=0" target="_blank">Suporte técnico</a></p>
       </div>
       <div class="col-lg-3">
         <h2>Contato</h2>
-        <p><i class="fa-solid fa-phone"></i> (19) 99739-5385</p>
-        <p><i class="fa-solid fa-at"></i> contato@naxosautomacao.com.br</p>
+        <a href="tel:+5519997395385"><p><i class="fa-solid fa-phone"></i> (19) 99739-5385</p></a>
+        <a href="mailto:contato@naxosautomacao.com.br?subject=Quero Contratar!"><p><i class="fa-solid fa-at"></i> contato@naxosautomacao.com.br</p></a>
       </div>
     </div>
   </div>
