@@ -1,6 +1,5 @@
 html {
   background-color: #fafafa !important;
-  scroll-behavior: smooth;
 }
 
 hr {
@@ -123,10 +122,14 @@ body {
 }
 
 .carousel img {
-  min-width: 1000px;
-  height: 900px !important;
+  min-width: 1500px;
+  height: 100%;
   width: 100%;
-  filter: brightness(65%);
+  filter: brightness(50%);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .col-lg-4, .col-lg-3{
@@ -241,13 +244,6 @@ div.scrollmenu div {
 div.scrollmenu svg {
   width: 100px;
   height: 100px;
-}
-
-#inverter {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 
 .fa-xmark {
