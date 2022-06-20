@@ -4,28 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Contato</title>
+    <title>Naxos Automação Comercial</title>
+    <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/css_contato.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type='text/javascript' src='//code.jquery.com/jquery-compat-git.js'></script>
+    <script type='text/javascript' src='//igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js'></script>
   </head>
   <body>
-    <i class="fa-solid fa-envelope-dot fa-5x"></i>
     <h1>Contate-nos!</h1>
     <form action="https://formsubmit.co/d94a6331d4d26103c9e5d1947bfd60e7" method="POST" class="form">
       <label for="name">Nome</label>
       <input type="text" name="name" id="name" placeholder="Insira seu nome" required>
       <label for="email">E-mail</label>
       <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com.br" required>
+      <label for="phone">Telefone</label>
+      <input type="text" name="phone" id="phone" placeholder="(19) 91234-5678" required>
       <label for="message">Mensagem</label>
       <textarea name="message" id="message" placeholder="Eu gostaria de saber mais sobre o sistema Naxos" required></textarea>
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="https://naxosautomacao.com.br/obrigado">
+      <input type="hidden" name="_next" value="https://naxosautomacao.com.br/obrigado.html">
       <button type="submit">Enviar</button>
     </form>
     <script src="https://kit.fontawesome.com/a07e271676.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+      var behavior = function (val) {
+      return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 90000-0000';
+      },
+      options = {
+          onKeyPress: function (val, e, field, options) {
+              field.mask(behavior.apply({}, arguments), options);
+          }
+      };
+      $('#phone').mask(behavior, options);
+    </script>
+    
   </body>
-  <footer>
-    <p style="padding: 10px;" class="text-muted text-center">&copy; 2022. Todos os direitos reservados | Mogi Mirim - SP | CNPJ: 29.893.703/0001-78</p>
-  </footer>
 </html>

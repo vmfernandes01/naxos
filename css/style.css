@@ -126,10 +126,6 @@ body {
   height: 100%;
   width: 100%;
   filter: brightness(50%);
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 
 .col-lg-4, .col-lg-3{
@@ -256,4 +252,9 @@ div.scrollmenu svg {
 
 td i {
   margin-left: 60%;
+}
+
+.col-sm table {
+  width: auto;
+  margin: 0 auto 0 auto !important;
 }
